@@ -1,8 +1,5 @@
 # -*- encoding:UTF-8 -*-
 #Version-01: 对过滤去冗余及最优转录本选择的cds制作bed文件
-#            
-#Author: Sun Congrui
-#Run: 
 
 import sys,getopt
 
