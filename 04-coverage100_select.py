@@ -4,7 +4,6 @@
 import sys,getopt
 
 def text_open2dic(file_path):
-        '''用于文件打开, 写入字典(以更快的方式)'''
         dic1 = {}
         dic2 = {}
         for line in open(file_path):
