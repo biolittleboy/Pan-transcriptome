@@ -31,7 +31,7 @@ if __name__ == '__main__':
 	opts, args = getopt.getopt(sys.argv[1:], "hg:i:o:")
 	for opt, arg in opts:
 		if opt == '-h':
-			print '\nUsage: python 04-coverage100_select.py -g <CDS.fa> -i <chromosomes.report> -o <OUTPUT>\n'
+			print '\nUsage: python Coverage100_select.py -g <CDS.fa> -i <chromosomes.report> -o <OUTPUT>\n'
 			sys.exit()
 		elif opt == '-g':
 			CDS = arg
