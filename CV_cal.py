@@ -1,8 +1,5 @@
 # -*- encoding:UTF-8 -*-
 #Version-01: 计算栽培和改良两个分类的CV值
-#            
-#Author: Sun Congrui
-#Usage: 
 
 import sys,getopt,os,json,numpy
 from functools import reduce
